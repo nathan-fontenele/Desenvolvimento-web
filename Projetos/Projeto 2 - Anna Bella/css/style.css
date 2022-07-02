@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background: #d2d2c1 url(/img/fundo.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#links{
+    background-color:  rgb(170, 159, 145);
+    width: 840px;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    font: bold 20px Arial, Helvetica, sans-serif ;
+    color: rgb(230, 215, 196);
+}
+
+#conteudo{
+    background-color: antiquewhite;
+    width: 840px;
+    padding: 30px;
+}
+
+#conteudo h2{
+    font-size: 1.2em;
+    color: rgb(109, 79, 41);
+}
+
+#conteudo img{
+    border: 10px solid rgb(63, 51, 35);
+}
+
+h3{
+    width: 900px;
+    text-align: center;
+}

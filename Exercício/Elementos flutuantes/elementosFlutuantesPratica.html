@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos flutuantes prática</title>
+</head>
+
+<style>
+
+    body{
+        background: #f4f4f4;
+    }
+
+    main{
+        width: 920px;
+    }
+
+    .noticia{
+        background-color: #e5e5e5;
+        padding: 5px;
+        width: 280px;
+        margin: 8px;
+        float: left;
+    }
+
+    .clear{
+        clear: both;
+    }
+
+    .imagem-galeria{
+        background-color: lightcoral;
+        width: 265px;
+        padding: 5px;
+        float: left;
+        margin: 15px;
+    }
+</style>
+
+<body>
+    <main>
+        <div>
+            <div class="noticia">
+                <h2>Título 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit optio consequuntur dolorem itaque modi excepturi reprehenderit nihil voluptates dolores exercitationem, facere ea inventore. Aliquid, itaque totam non a quas quod?</p>
+                <a href="#">Veja mais</a>
+            </div>
+            <div class="noticia">
+                <h2>Título 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit optio consequuntur dolorem itaque modi excepturi reprehenderit nihil voluptates dolores exercitationem, facere ea inventore. Aliquid, itaque totam non a quas quod?</p>
+                <a href="#">Veja mais</a>
+            </div>
+            <div class="noticia">
+                <h2>Título 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit optio consequuntur dolorem itaque modi excepturi reprehenderit nihil voluptates dolores exercitationem, facere ea inventore. Aliquid, itaque totam non a quas quod?</p>
+                <a href="#">Veja mais</a>
+            </div>
+        
+        </div>
+
+        <div class="clear"></div>
+
+        <div>
+            <div class="imagem-galeria"><img src="imagens/imagem1.png" alt="">Resumo</div>
+            <div class="imagem-galeria"><img src="imagens/imagem2.png" alt="">Resumo</div>
+            <div class="imagem-galeria"><img src="imagens/imagem3.png" alt="">Resumo</div>
+            <div class="imagem-galeria"><img src="imagens/imagem4.png" alt="">Resumo</div>
+            <div class="imagem-galeria"><img src="imagens/imagem5.png" alt="">Resumo</div>
+        </div>
+    </main>
+</body>
+</html>
